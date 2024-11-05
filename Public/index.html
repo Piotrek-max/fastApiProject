@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="x.png" />
+    <title>
+        Tic-Tac-Toe
+    </title>
+
+</head>
+
+
+<body>
+
+
+    <header>
+        <h1>
+            <span style="color: var(--cl_red);">Tic</span>-<span style="color:var(--cl_brown);">Tac</span>-<span style="color:var(--cl_blue);">Toe</span>
+        </h1>
+    </header>
+
+    <main>
+        <div class="playing">Playing:<img src='x.png' /></div>
+
+        <div class="winner"></div>
+
+
+        <div class="container">
+            <button class="square" data-type="blank" data-key="1">1</button>
+            <button class="square" data-type="blank" data-key="2">2</button>
+            <button class="square" data-type="blank" data-key="3">3</button>
+            <button class="square" data-type="blank" data-key="4">4</button>
+            <button class="square" data-type="blank" data-key="5">5</button>
+            <button class="square" data-type="blank" data-key="6">6</button>
+            <button class="square" data-type="blank" data-key="7">7</button>
+            <button class="square" data-type="blank" data-key="8">8</button>
+            <button class="square" data-type="blank" data-key="9">9</button>
+
+
+            <div class="WinBoard_off"></div>
+        </div>
+
+
+        <button class="restart">restart</button>
+
+
+    </main>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+
+</html>
